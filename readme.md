@@ -16,7 +16,7 @@ npm install
 npm run cypress:open
 ```
 
-3. Run `example.cy.js`. You should see a home page with the list of products.
+3. Run `example.cy.js`. You should see a home page with a list of products.
 
 ## Useful tips & notes:
 
@@ -26,7 +26,7 @@ npm run cypress:open
 
 3. To test Stripe integration properly read this article, which explains how to work with iframes in cypress: [Working with iframes in Cypress](https://www.cypress.io/blog/2020/02/12/working-with-iframes-in-cypress)
 
-4. We use `imgur` to store product images. So, in order to simulate the image upload during product creation process, you can use the following block of code:
+4. We use ["imgur"](https://imgur.com/) to store product images. So, in order to simulate the image upload during the product creation process, you can use the following block of code:
 
 ```javascript
 cy.get("[data-cy='image']").selectFile({
