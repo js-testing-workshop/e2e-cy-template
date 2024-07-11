@@ -62,7 +62,7 @@ getIframeBody()
   .type("4242 4242 4242 4242");
 ```
 
-4. We use `imgur` to store product images. So, in order to simulate the image upload during product creation process, you can use the following block of code:
+4. We use ["imgur"](https://imgur.com/) to store product images. So, in order to simulate the image upload during the product creation process, you can use the following block of code:
 
 ```javascript
 cy.get("[data-cy='image']").selectFile({
